@@ -1,0 +1,30 @@
+nav > ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color:black ;
+}
+
+
+
+/* dropdown menu */
+
+
+/* same jinish k hover na kole display none korbo */
+nav li .dropdown {
+    display: none;
+    position: absolute;
+    padding: 0px;
+}
+
+/* same jinish hover korle dekhabo ki ache */
+nav li:hover .dropdown{
+    background-color:lightgray ;
+    display: block;
+}

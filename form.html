@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <style>
+        label {
+            display: block;
+            padding: 5px;
+        }
+    </style>
+
+
+
+
+    <h2>Khalar Pitha-Ghor</h2>
+    <form>
+        <label for="name">Your Name:
+            <input type="text" id="name" placeholder="Your Name">
+        </label>
+        <label for="email">Your Email:
+            <input type="text" id="email" placeholder="Your email">
+        </label>
+        <label for="pin">Mobile No:
+            <input type="number" id="pic" placeholder="Mobile Number">
+        </label>
+
+
+        <fieldset>
+            <legend>Choose one pitha</legend>
+            <label for="Chitoy">
+                <input type="radio" name="pitha" id="pitha" placeholder="Chitoy">Chitoy
+            </label>
+            <label for="Vhapa">
+                <input type="radio" name="pitha" id="pitha" placeholder="Vhapa">Vhapa
+            </label>
+        </fieldset>
+
+        
+    <!-- Radio button can be selected one option -->
+
+        <fieldset>
+            <legend>Choose one or more Vortas</legend>
+            <label for="">
+                <input type="checkbox" name="sorisha" id="sorisha">Sorisha
+            </label>
+            <label for="">
+                <input type="checkbox" name="sorisha" id="sorisha">Shutki
+            </label>
+            <label for="">
+                <input type="checkbox" name="sorisha" id="sorisha">Kalo-zira
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Speacial Instruction</legend>
+            <textarea name="instruction" id="" cols="50" rows="4"></textarea>
+        </fieldset>
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>
